@@ -8,6 +8,27 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div>
+  <label for="item-name-input">Item Name:</label>
+  <input type="text" id="item-name-input">
+  <label for="item-price-input">Item Price:</label>
+  <input type="text" id="item-price-input">
+  <button id="add-button">Add</button>
+</div>
+<table id="shopping-list">
+  <thead>
+    <tr>
+      <th data-ns-test="item-name">Item Name</th>
+      <th data-ns-test="item-price">Item Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-ns-test="grandTotal" colspan="2">0</td>
+    </tr>
+  </tbody>
+</table>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
